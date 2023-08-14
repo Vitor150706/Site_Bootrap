@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap</title>
+    <style>
+        .lang{
+            width: 200px;
+            height: 200px;
+            background-color: rgba(141, 1, 211, 0.952);
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!--configuração de tamanhos(largura e comprimento)-->
+    <div class="w-25 p-3" style="background-color: #eee;">Width 25%</div>
+    <div class="w-50 p-3" style="background-color: #eee;">Width 50%</div>
+    <div class="w-75 p-3" style="background-color: #eee;">Width 75%</div>
+    <div class="w-100 p-3" style="background-color: #eee;">Width 100%</div>
+    <div class="w-auto p-3" style="background-color: #eee;">Width auto</div>
+
+    <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
+<div class="h-25 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 25%</div>
+<div class="h-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 50%</div>
+<div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 75%</div>
+<div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 100%</div>
+<div class="h-auto d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height auto</div>
+</div>
+
+
+    <!--configuração borda raudius-->
+    <div class="larg rounded"> </div>
+    <div class="larg rounded-top"> </div>
+    <div class="larg rounded-right"> </div>
+    <div class="larg rounded-bottom"> </div>
+    <div class="larg rounded-left"> </div>
+    <div class="larg rounded-circle"> </div>
+    <div class="larg rounded-0"> </div>
+
+    <!--configuração de texto-->
+    <p class="text-left">Left aligned text on all viewport sizes.</p>
+    <p class="text-center">Center aligned text on all viewport sizes.</p>
+    <p class="text-right">Right aligned text on all viewport sizes.</p>
+    <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. </p>
+    
+    <!--configuraçoes de formatação de texto-->
+    <p class="text-lowercase">Lowercased text.</p>
+    <p class="text-uppercase">Uppercased text.</p>
+    <p class="text-capitalize">CapiTaliZed text.</p>
+    <p class="font-weight-bold">Bold text.</p>
+    <p class="font-weight-normal">Normal weight text.</p>
+    <p class="font-weight-light">Light weight text.</p>
+    <p class="font-italic">Italic text.</p>
+    <p class="text-monospace">This is in monospace</p>
+    
+    <!--configuraçoes de elementos flutuantes-->
+    <div class="float-left">Float left on all viewport sizes</div><br>
+    <div class="float-right">Float right on all viewport sizes</div><br>
+    <div class="float-none">Don't float on all viewport sizes</div>
+    
+    <!--configuração de Clearfix-->
+    <div class="clearfix" style="background-color: red;">
+       <div class="float-left">Float left on all viewport sizes</div>
+       <div class="float-right">Float right on all viewport sizes</div>
+    </div>
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+    
+    <!--configuraçoes de cores e backgrounds
+    <p class="text-primary">.AZUL</p>
+    <p class="text-secondary">.CINZA</p>
+    <p class="text-success">.VERDE</p>
+    <p class="text-danger">.VERMELHO</p>
+    <p class="text-warning">.AMARELO</p>
+    <p class="text-info">.AZUL CLARO</p>-->
+    
+    <!--configuraçoes de cores da fonte
+    <p class="text-light bg-dark">.text-light</p>
+    <p class="text-dark">.text-dark</p>
+    <p class="text-body">.text-body</p>
+    <p class="text-muted">.text-muted</p>
+    <p class="text-white bg-dark">.text-white</p>
+    <p class="text-black-50">.text-black-50</p>
+    <p class="text-white-50 bg-dark">.text-white-50</p>-->
+    
+    <!--configuraçoes de Cores e Backgrounds-->
+    <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+    <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+    <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+    <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+    <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+    <div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+    <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+    <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+    <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+    <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+    
+    <!--configuraçoes de margin,padding e etc
+    m - para classes que definem margem
+    p - para classes que definem padding
+
+    t - para classes que definem top 
+    b - para classes que definem bottom
+    l - para classes que definem left
+    r - para classes que definem right
+    x - para classes que definem *-left e *-right
+    y - para classes que definem *-top e *-bottom-->
+
+    <div style="width: 200px; background-color: yellowgreen;">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio
+quidem labore, neque amet laboriosam consequuntur, facilis reprehenderit, eum
+accusamus eligendi!
+</div>
+    <div class="m-1 p-1" style="width: 200px;background-color: yellowgreen;">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio
+quidem labore, neque amet laboriosam consequuntur, facilis reprehenderit, eum
+accusamus eligendi!
+</div>
+    <div class="ml-4 px-4" style="width: 200px;background-color: yellowgreen;">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio
+quidem labore, neque amet laboriosam consequuntur, facilis reprehenderit, eum
+accusamus eligendi!
+</div>
+    <!--configuraçoes de Bordas-->
+    <div class="border"></div>
+    <div class="border-top"></div>
+    <div class="border-right" ></div>
+    <div class="border-bottom" ></div>
+    <div class="border-left"></div>
+
+    <!--configuraçoes de Cores da borda-->
+    <div class="larg border border-primary"></div>
+    <div class="larg border border-secondary"></div>
+    <div class="larg border border-success"></div>
+    <div class="larg border border-danger"></div>
+    <div class="larg border border-warning"></div>
+    <div class="larg border border-info"></div>
+    <div class="larg border border-light"></div>
+    <div class="larg border border-dark"></div>
+    <div class="larg border border-white"></div>
+ 
+</body>
+</html>
